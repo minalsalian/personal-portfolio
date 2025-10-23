@@ -1,0 +1,33 @@
+@import 'assets/styles/variables';
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: $primary-color;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+footer {
+    background-color: $footer-background;
+    color: $footer-text-color;
+    padding: 20px;
+    text-align: center;
+}
